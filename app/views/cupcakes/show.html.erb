@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Flavor:</strong>
+  <%= @cupcake.flavor %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @cupcake.quantity %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cupcake.price %>
+</p>
+
+<%= link_to 'Edit', edit_cupcake_path(@cupcake) %> |
+<%= link_to 'Back', cupcakes_path %>
